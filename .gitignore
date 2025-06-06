@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Scrapy project files
+*.jsonl
+*.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Training data and outputs
+training_data.jsonl
+sft_training_data.jsonl
+formatted_sft_data.jsonl
+intents.db
+output.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Logs
+*.log
+scrapy.log
